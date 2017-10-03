@@ -1,0 +1,26 @@
+{
+  "name": "eleken",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitcool/eleken.git"
+  },
+  "author": "Vitalii Kulyk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vitcool/eleken/issues"
+  },
+  "homepage": "https://github.com/vitcool/eleken#readme",
+  "devDependencies": {
+    "webpack": "^3.6.0"
+  },
+  "dependencies": {
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2"
+  }
+}
