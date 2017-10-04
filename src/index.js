@@ -5,25 +5,35 @@ import Main from "./Components/Main";
 import Calendar from "./Components/Calendar";
 import ContactUs from "./Components/ContactUs";
 import Flexbox from "flexbox-react";
-require("./../dist/style.scss");
+require("./../dist/style/style.scss");
 
 class App extends React.Component {
   render() {
     return (
       <Router>
         <Flexbox flexDirection="column" minHeight="100vh">
-          <Flexbox element="header" height="100px">
-            <ul>
-              <li>
-                <Link className="menu-item" to="/">Main</Link>
-              </li>
-              <li>
-                <Link className="menu-item" to="/calendar">Calendar</Link>
-              </li>
-              <li>
-                <Link className="menu-item" to="/contactUs">Contact Us</Link>
-              </li>
-            </ul>
+          <Flexbox element="header" height="60px" className="main-header">
+            <div className="personal-info">
+              <div className="circle"><span>JS</span></div>
+              <div className="personal-info-name">John Smith</div>
+            </div>
+            <div className="menu-box">
+              <div className="menu-item-wrapper">
+                <Link className="menu-item" to="/">
+                  <span>How it works</span>
+                </Link>
+              </div>
+              <div className="menu-item-wrapper">
+                <Link className="menu-item" to="/calendar">
+                  <span>Calendar</span>
+                </Link>
+              </div>
+              <div className="menu-item-wrapper">
+                <Link className="menu-item" to="/contactUs">
+                  <span> Contact Us</span>
+                </Link>
+              </div>
+            </div>
           </Flexbox>
 
           <Flexbox flexGrow={1}>
@@ -34,8 +44,27 @@ class App extends React.Component {
             </div>
           </Flexbox>
 
-          <Flexbox element="footer" height="60px">
-            Footer
+          <Flexbox element="footer" height="40px" className="main-footer">
+            <div className="menu-box">
+              <div className="menu-item-wrapper">
+                <span>Terms</span>
+              </div>
+              <div className="menu-item-wrapper">
+                <span>Privacy</span>
+              </div>
+              <div className="menu-item-wrapper">
+                <span>Security</span>
+              </div>
+              <div className="menu-item-wrapper">
+                <span>Status</span>
+              </div>
+              <div className="menu-item-wrapper">
+                <span>Help</span>
+              </div>
+              <div className="menu-item-wrapper">
+                <span>Contact</span>
+              </div>
+            </div>
           </Flexbox>
         </Flexbox>
       </Router>
