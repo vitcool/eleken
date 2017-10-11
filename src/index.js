@@ -5,6 +5,7 @@ import Main from "./Components/Main";
 import Calendar from "./Components/Calendar";
 import ContactUs from "./Components/ContactUs";
 import Flexbox from "flexbox-react";
+import {contactLinks} from "./Mocks/contactLinks.json";
 require("./../dist/style/style.scss");
 
 class App extends React.Component {
@@ -37,10 +38,12 @@ class App extends React.Component {
           </Flexbox>
 
           <Flexbox flexGrow={1}>
-            <div>
+            <div className="content-page">
               <Route exact path="/" component={Main} />
               <Route path="/calendar" component={Calendar} />
-              <Route path="/contactUs" component={ContactUs} />
+              <Route path="/contactUs" render={function(props){
+                  return <ContactUs data = {contactLinks}/>
+              }}/>
             </div>
           </Flexbox>
 

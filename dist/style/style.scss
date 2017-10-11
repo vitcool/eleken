@@ -82,3 +82,43 @@ body {
     margin-left: 10px;
     color: white;
 }
+
+.pickers-board-calendar{
+    display: flex;
+    margin-top: 20px;
+}
+
+.content-page{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.title-item{
+    font-size: 25px;
+}
+
+.links-contact{
+    display: table;
+}
+
+.link-name-contact{
+    float: left;
+    height: 64px;
+    display: table;
+    margin-left: 20px;
+}
+
+.link-name-contact span{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+
+.link-contact a{
+    display: table;
+}
+
+.link-contact a img{
+    float: left;
+}

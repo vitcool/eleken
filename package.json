@@ -26,6 +26,14 @@
   "dependencies": {
     "flexbox": "0.0.3",
     "flexbox-react": "^4.4.0",
+    "moment": "^2.18.1",
+    "react-addons-shallow-compare": "^15.6.2",
+    "react-addons-test-utils": "^15.6.2",
+    "react-date-picker": "^6.2.0",
+    "react-datepicker": "^0.55.0",
+    "react-dates": "^13.0.2",
+    "react-day-picker": "^6.2.1",
+    "react-dom": "^16.0.0",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2"
   }
