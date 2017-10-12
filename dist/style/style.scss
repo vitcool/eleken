@@ -1,6 +1,7 @@
 body {
   background-color: white;
   margin: 0 !important;
+  background: #FAFAFA;
 }
 
 .menu-box {
@@ -91,6 +92,8 @@ body {
 .content-page{
     width: 75%;
     margin: 0 auto;
+    margin-top: 20px;
+
 }
 
 .title-item{
@@ -99,11 +102,12 @@ body {
 
 .links-contact{
     display: table;
+    width: 100%;
+    margin-top: 20px;
 }
 
 .link-name-contact{
     float: left;
-    height: 64px;
     display: table;
     margin-left: 20px;
 }
@@ -111,14 +115,104 @@ body {
 .link-name-contact span{
     display: table-cell;
     vertical-align: middle;
+    height: 30px;
 }
 
-
-
-.link-contact a{
+.link-contact{
     display: table;
+    width: 100%;
+    margin: 3px 0;
+    border-width: 1px;
 }
 
-.link-contact a img{
+.link-contact:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.1)
+}
+
+.image-contact{
     float: left;
+    width: 30px;
+    height: 30px;
+}
+
+.image-contact img{
+    height: 30px;
+    width: 30px;
+}
+
+.btn-link-contact{
+    float: right;
+}
+
+.datepicher-title-calendar{
+    margin-left: 10px;
+    margin-top: 5px;
+    text-transform: uppercase;
+    font-size: 8px;
+    font-weight: bold;
+    color: grey;
+}
+
+.datepicker-wrapper-calendar{
+    width: 100px;
+    margin: 2px;
+    background-color: #E0E0E0;
+    cursor: pointer;
+}
+
+.datepicker-wrapper-calendar input{
+    width: 90px;
+    background: transparent;
+    border: transparent;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.datepicker-wrapper-calendar input:focus {
+    outline: none;    
+}
+
+.datepicker-wrapper-calendar:hover{
+    background-color:white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.datepicker-wrapper-calendar.departure-calendar:hover .calendar-triangle-right{
+    border-left: 10px solid white;
+}	
+
+.date-result-calendar{
+    text-align: center;
+}
+
+.datepicker-result-calendar{
+    background: #E0E0E0;
+    margin: 2px;
+    width: 45px;
+    height: 45px;
+    margin-left: 10px;
+}
+
+.arrive-date-calendar{
+    background: #eae7e5;
+    margin-left: -1px;
+}
+
+.error-calendar{
+    color: red;
+    font-size: 12px;
+    width: 250px;
+    text-align: center;
+}
+
+.calendar-triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-left: 10px solid #E0E0E0;
+    border-bottom: 5px solid transparent;
+    margin-top: -20px;
+    margin-left: 100px;
+    z-index: 2;
+    position: absolute;
 }

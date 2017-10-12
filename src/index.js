@@ -6,6 +6,7 @@ import Calendar from "./Components/Calendar";
 import ContactUs from "./Components/ContactUs";
 import Flexbox from "flexbox-react";
 import {contactLinks} from "./Mocks/contactLinks.json";
+
 require("./../dist/style/style.scss");
 
 class App extends React.Component {
