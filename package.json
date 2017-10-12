@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/vitcool/eleken#readme",
   "devDependencies": {
+    "babel-preset-react": "^6.24.1",
     "css-loader": "^0.28.7",
     "node-sass": "^4.5.3",
     "sass-loader": "^6.0.6",
