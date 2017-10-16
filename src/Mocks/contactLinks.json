@@ -3,23 +3,23 @@
     {
       "name": "Facebook",
       "href": "https://www.facebook.com/vitaliy.kulyk",
-      "src": "/img/facebook.png"
+      "src": "/img/contactUs/facebook.png"
     },
     {
       "name": "Github",
       "href": "https://github.com/vitcool",
-      "src": "/img/github.png"
+      "src": "/img/contactUs/github.png"
     },
     {
       "name": "Linkedin",
-      "href": "hhttps://www.linkedin.com/in/vitalikulyk",
-      "src": "/img/linkedin.png"
+      "href": "https://www.linkedin.com/in/vitalikulyk",
+      "src": "/img/contactUs/linkedin.png"
     },
     {
-      "name": "Google drive",
+      "name": "Google drive (CV + cover letter)",
       "href":
         "https://docs.google.com/document/d/13rp5vqrVxSmhMsMTSLGusOou5nThM30cgfkF3_YsF9A/edit?usp=sharing",
-      "src": "/img/google.png"
+      "src": "/img/contactUs/google.png"
     }
   ]
 }

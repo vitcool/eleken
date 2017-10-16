@@ -19,6 +19,7 @@ body {
   background: #000066;
   display: flex;
   align-items: center;
+  width: 100%;
 }
 
 .menu-item {
@@ -42,6 +43,7 @@ body {
 
 .main-footer {
   background-color: #3333a8;
+  width: 100%;
 }
 
 .main-footer .menu-item-wrapper {
@@ -91,9 +93,7 @@ body {
 
 .content-page{
     width: 75%;
-    margin: 0 auto;
-    margin-top: 20px;
-
+    margin: 20px auto;
 }
 
 .title-item{
@@ -216,3 +216,144 @@ body {
     z-index: 2;
     position: absolute;
 }
+
+ul.expandable-listview_ul{
+    list-style-type: none;
+}
+
+.expandable-listview_listHeader{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.image-readme{
+    width: 32px;
+    height: 32px;
+    float: left;
+}
+
+.header-readme{
+    display: table;
+    float: left;
+    margin-left: 10px;
+    height: 32px;
+}
+
+.header-readme span{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.content-readme-item{
+    margin-left: 42px;
+}
+
+.title-settings-detail-item-readme{
+    float: left;
+    font-weight: bold;
+}
+
+.text-settings-detail-item-readme{
+    float: left;
+}
+
+.settings-detail-item-readme{
+    display: table;
+    margin: 2px 0;
+    margin-left: 42px;
+}
+
+.copyright-footer{
+    color: #d7d0d0;
+    display: table;
+    margin-left: 150px;
+    height: 40px;
+
+    span{
+        vertical-align: middle;
+        display: table-cell;
+    }
+}
+
+// The main container element
+.Collapsible {
+    background-color: white;
+    border: 2px solid #FAFAFA;
+    cursor: pointer;
+  }
+
+  .Collapsible:hover {
+    box-shadow: 0 1px 4px 0 rgba(0, 0.1, 0, 0.1), 0 1px 4px 0 rgba(0, 0.1, 0, 0.1);
+  }
+  
+  
+  //The content within the collaspable area
+  .Collapsible__contentInner {
+    padding: 10px;
+    border: 1px solid white;
+    border-top: 0;
+  
+    p {
+      margin-bottom: 10px;
+      font-size: 14px;
+      line-height: 20px;
+  
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+  
+  //The link which when clicked opens the collapsable area
+  .Collapsible__trigger {
+    display: grid;;
+    font-weight: 400;
+    text-decoration: none;
+    color: grey;
+    position: relative;
+
+    padding: 10px;
+    background: white;
+    color: black;
+    min-height: 45px;
+  
+    &:after {
+      font-family: 'FontAwesome';
+      content: '\f107';
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      display: block;
+      transition: transform 300ms;
+      color: grey;
+    }
+  
+    &.is-open {
+      &:after {
+        transform: rotateZ(180deg);
+      }
+    }
+  
+    &.is-disabled {
+      opacity: 0.5;
+      background-color: grey;
+    }
+  }
+  
+  .CustomTriggerCSS {
+    background-color: lightcoral;
+    transition: background-color 200ms ease;
+    
+    
+  }
+  
+  .CustomTriggerCSS--open {
+    background-color: darkslateblue;
+  }
+  
+  .Collapsible__custom-sibling {
+    padding: 5px;
+    font-size: 12px;
+    background-color: #CBB700;
+    color: black;
+  }

@@ -37,6 +37,7 @@
     "react": "^16.0.0",
     "react-addons-shallow-compare": "^15.6.2",
     "react-addons-test-utils": "^15.6.2",
+    "react-collapsible": "^2.0.3",
     "react-date-picker": "^6.2.0",
     "react-datepicker": "^0.55.0",
     "react-dates": "^13.0.2",

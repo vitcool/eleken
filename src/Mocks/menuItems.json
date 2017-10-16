@@ -1,0 +1,16 @@
+{
+  "menuItems": [
+    {
+      "name": "How it works",
+      "href": "/"
+    },
+    {
+      "name": "Calendar",
+      "href": "/calendar"
+    },
+    {
+      "name": "Contact us",
+      "href": "/contactUs"
+    }
+  ]
+}
