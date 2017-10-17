@@ -2,7 +2,7 @@
   "menuItems": [
     {
       "name": "How it works",
-      "href": "/"
+      "href": "/readme"
     },
     {
       "name": "Calendar",

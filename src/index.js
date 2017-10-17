@@ -1,10 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import Header from "./Components/Header";
-import MenuFooter from "./Components/MenuFooter";
-import Content from "./Components/Content";
+import { BrowserRouter as Router } from "react-router-dom";
 import Flexbox from "flexbox-react";
+
+import Header from "./Components/Header/Header";
+import Footer from "./Components/Footer/Footer";
+import Content from "./Components/Content";
 
 
 require("./../dist/style/style.scss");
@@ -21,7 +22,7 @@ class App extends React.Component {
             <Content />
           </Flexbox>
           <Flexbox element="footer" height="40px">
-            <MenuFooter />
+            <Footer />
           </Flexbox>
         </Flexbox>
       </Router>

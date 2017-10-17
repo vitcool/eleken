@@ -1,9 +1,9 @@
 {
   "contactLinks": [
     {
-      "name": "Facebook",
-      "href": "https://www.facebook.com/vitaliy.kulyk",
-      "src": "/img/contactUs/facebook.png"
+      "name": "Linkedin",
+      "href": "https://www.linkedin.com/in/vitalikulyk",
+      "src": "/img/contactUs/linkedin.png"
     },
     {
       "name": "Github",
@@ -11,15 +11,21 @@
       "src": "/img/contactUs/github.png"
     },
     {
-      "name": "Linkedin",
-      "href": "https://www.linkedin.com/in/vitalikulyk",
-      "src": "/img/contactUs/linkedin.png"
+      "name": "Google drive (CV)",
+      "href":
+        "https://drive.google.com/file/d/0B0Jop5-aWvbZWm1TNFJ5WXpzMlE/view?usp=sharing",
+      "src": "/img/contactUs/google.png"
     },
     {
-      "name": "Google drive (CV + cover letter)",
+      "name": "Google drive (cover letter)",
       "href":
         "https://docs.google.com/document/d/13rp5vqrVxSmhMsMTSLGusOou5nThM30cgfkF3_YsF9A/edit?usp=sharing",
       "src": "/img/contactUs/google.png"
+    },
+    {
+      "name": "Facebook",
+      "href": "https://www.facebook.com/vitaliy.kulyk",
+      "src": "/img/contactUs/facebook.png"
     }
   ]
 }

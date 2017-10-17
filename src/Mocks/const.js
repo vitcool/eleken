@@ -28,19 +28,7 @@ export const DATA = [
     ]
   },
   {
-    headerName: "Questions",
-    imgSrc: "/img/readMe/question.png",
-    type: 1,
-    content: [
-      {
-        title: "How are you?",
-        text:
-          "I am fine=)"
-      }
-    ]
-  },
-  {
-    headerName: "Info",
+    headerName: "Info (Used libraries and frameworks)",
     imgSrc: "/img/readMe/info.png",
     type: 2,
     content: [

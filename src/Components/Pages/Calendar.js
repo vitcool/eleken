@@ -18,36 +18,34 @@ export default class Calendar extends React.Component {
     this.handleChangeStart = this.handleChangeStart.bind(this);
     this.handleChangeEnd = this.handleChangeEnd.bind(this);
   }
-  handleChangeStart(date) {
-    var self = this;
+  handleChangeStart(date){
+    let self = this;
     this.setState(
       {
         startDate: date
       },
-      function() {
-        console.log("start after", this.state.startDate);
+      () => {
         self.recalculateDifference(self);
       }
     );
   }
   handleChangeEnd(date) {
-    var self = this;
+    let self = this;
     this.setState(
       {
         endDate: date
       },
-      function() {
-        console.log("end after", this.state.endDate);
+      () => {
         self.recalculateDifference(self);
       }
     );
   }
   recalculateDifference(self) {
-    var diff = moment
+    let diff = moment
       .duration(this.state.endDate.diff(this.state.startDate))
       .asDays()
       .toFixed();
-    var negative = diff < 0;
+    let negative = diff < 0;
     this.showHideError(self, negative);
     self.setState({
       difference: Math.abs(diff)

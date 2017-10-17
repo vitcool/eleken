@@ -1,8 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import Collapsible from "react-collapsible";
-import { DATA } from "../Mocks/const.js";
-import StepSettings from "./StepSettings.js";
+import { DATA } from "../../Mocks/const.js";
+import StepSettings from "./Elements/StepSettings.js";
+
 export default class ReadMe extends React.Component {
   getTrigger(imgSrc, headerName) {
     return (
@@ -20,7 +21,8 @@ export default class ReadMe extends React.Component {
     return (
       <div>
         <div className="title-item">Read Me</div>
-        {data.map(function(link, index) {
+        <div className="content-readme">
+        {data.map((link, index) => {
           return (
             <Collapsible
               trigger={self.getTrigger(
@@ -33,6 +35,7 @@ export default class ReadMe extends React.Component {
             </Collapsible>
           );
         })}
+        </div>
       </div>
     );
   }
